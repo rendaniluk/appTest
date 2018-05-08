@@ -1,0 +1,36 @@
+server-graph:not(.oj-complete) {
+    visibility: hidden;
+}
+
+.circular-status-meter-common {
+    align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+.circular-status-meter-large {
+    height: 100px;
+}
+
+.circular-status-meter-small {
+    height: 50px;
+}
+
+.gaugecontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+#gauge8 {
+    margin-left: 70px;
+}
+
+.optioncontainer {
+    width: 100%;
+}
+
+#resetButton {
+    float: right;
+}

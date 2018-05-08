@@ -1,0 +1,18 @@
+<div class="optioncontainer">
+    <div class="optionSelect">
+        <div class="optionSelection">
+            <oj-select-one id="monthOptions" options="[[months]]" value="{{selectedVal}}" on-value-changed="[[selectedMonth]]">
+            </oj-select-one>
+            <oj-button id="resetButton" on-click='[[resetClick]]' display='icons' chroming='half'>
+                <span slot='startIcon' class='oj-fwk-icon oj-fwk-icon-cross03'></span> Clear
+            </oj-button>
+        </div>
+    </div>
+</div>
+
+<div class="gaugecontainer">
+    <div class="gauge">
+        <oj-status-meter-gauge id="gauge8" min="0" max="100" value="{{numberoflogs}}" readonly="true" start-angle="180" angle-extent="180" orientation="circular" class="circular-status-meter-common circular-status-meter-large">
+        </oj-status-meter-gauge>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+mobile-graph:not(.oj-complete) {
+    visibility: hidden;
+}
+
+mobile-graph {}
+
+#picto-container {
+    width: 100%;
+    height: 80%;
+}

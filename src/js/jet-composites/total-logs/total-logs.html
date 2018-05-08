@@ -1,0 +1,44 @@
+<div class="dashbord">
+    <div id="gauge10" data-bind="ojComponent: {
+        component: 'ojStatusMeterGauge', 
+        min: 0, 
+        max: 100, 
+        value: logs, 
+        thresholds: thresholdValues,
+        orientation: 'circular',
+        plotArea: {rendered: 'on'},
+        metricLabel: {rendered: 'on'},
+        title: {text: 'Logs'},
+        readOnly: true,
+        referenceLines: 
+        [{value: 33, color:'yellow'}, 
+        {value: 67, color:'green'}],
+        }" style="
+        background-color: #fff;
+        margin-top:5px;
+        margin-bottom:5px;
+        height:135px;
+        width:50%;">
+    </div>
+    <div id="gauge10" data-bind="ojComponent: {
+        component: 'ojStatusMeterGauge', 
+        min: 0, 
+        max: 100, 
+        value: customers, 
+        thresholds: thresholdValues,
+        orientation: 'circular',
+        plotArea: {rendered: 'on'},
+        metricLabel: {rendered: 'on'},
+        title: {text: 'Customers'},
+        readOnly: true,
+        referenceLines: 
+        [{value: 33, color:'yellow'}, 
+        {value: 67, color:'green'}],
+        }" style="
+        background-color: #fff;
+        margin-top:5px;
+        margin-bottom:5px;
+        height:135px;
+        width:50%;">
+    </div>
+</div>

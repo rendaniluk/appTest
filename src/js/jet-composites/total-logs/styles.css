@@ -1,0 +1,16 @@
+total-logs:not(.oj-complete) {
+    visibility: hidden;
+}
+
+.dashbord {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid */
+}
+
+#head {
+    font-size: 25px;
+}

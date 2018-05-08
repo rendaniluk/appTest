@@ -1,0 +1,21 @@
+{
+    "name": "log-dates",
+    "displayName": "log-dates",
+    "description": "Describe your component here",
+    "version": "1.0.0",
+    "jetVersion": "4.2.0",
+    "properties": {
+        "data": {
+            "type": "observable"
+        }
+    },
+    "methods": {
+
+    },
+    "events": {
+
+    },
+    "slots": {
+
+    }
+}
